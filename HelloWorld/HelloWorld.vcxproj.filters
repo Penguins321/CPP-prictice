@@ -15,7 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chapter6.14.cpp">
+    <Text Include="chapter6_outFileTest.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="chapter6_secores.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chapter6_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
