@@ -6,7 +6,8 @@ int main() {
 
 	double donation[ArSize];
 	double average = 0;
-	int i, count = 0;
+	int i = 0;
+	int count = 0;
 	double sum = 0;
 	int countAboveAverage = 0;
 	double temp;
@@ -14,20 +15,21 @@ int main() {
 	cout << "enter your number: ";
 	while (count < ArSize && cin >> temp) {
 		donation[i] = temp;
+		sum += temp;
 		count++;
-
 	}
 
 	// ±éÀúÊý×é
-	if (count != 0) {
+	if (count > 0) {
 		average = sum / count;
-		
+
 		for (int i = 0; i < count; i++)
 		{
 			if (donation[i] > average)
-				countup++;
+				countAboveAverage++;
 		}
 	}
 	cout << "average: " << average << " \n";
-	cout << "upper: " << countup << endl;
+	cout << "upper: " << countAboveAverage << endl;
 	return 0;
+}
