@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="chapter6_8.txt" />
+    <Text Include="chapter6_9.txt" />
     <Text Include="chapter6_outFileTest.txt" />
     <Text Include="chapter6_secores.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="chapter6_3.cpp" />
+    <ClInclude Include="resource1.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

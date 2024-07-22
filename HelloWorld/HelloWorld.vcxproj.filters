@@ -21,15 +21,19 @@
     <Text Include="chapter6_secores.txt">
       <Filter>资源文件</Filter>
     </Text>
+    <Text Include="chapter6_8.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="chapter6_9.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="chapter6_3.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
