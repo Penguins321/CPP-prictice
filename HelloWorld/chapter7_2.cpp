@@ -1,6 +1,7 @@
 #include<iostream>
 
 const int Maxsize = 10;
+using namespace std;
 
 int input(double ar[],int size);
 void show(double ar[],int count);
@@ -8,19 +9,19 @@ double calculateAverage(double ar[],int count);
 
 
 int main() {
-	using namespace std;
+	
 
 	double golfcore[Maxsize];
 
 	// 输入数据
-	int count = input(golfcore[Maxsize], Maxsize);
+	int count = input(golfcore, Maxsize);
 
 	//展示数据
-	show(golfcore[Maxsize], count);
+	show(golfcore, count);
 
 	//获取平均值
 	if (count > 0) {
-		double average = calculateAverage(golfcore[Maxsize],int count);
+		double average = calculateAverage(golfcore, count);
 		cout << average << endl;
 	}
 	else
@@ -42,7 +43,7 @@ int input(double ar[], int size) {
 }
 
 void show(double ar[], int count) {
-	if (cout > 0) {
+	if (count > 0) {
 		for (int i = 0; i < count; i++) {
 			cout << ar[i] << endl;
 		}

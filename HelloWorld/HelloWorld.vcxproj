@@ -29,7 +29,7 @@
     <ClInclude Include="resource1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chapter7_2.cpp" />
+    <ClCompile Include="chapter8.3.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
