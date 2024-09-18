@@ -23,13 +23,15 @@
     <Text Include="chapter6_9.txt" />
     <Text Include="chapter6_outFileTest.txt" />
     <Text Include="chapter6_secores.txt" />
+    <Text Include="ep-data.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="chapter9_sales.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="resource1.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chapter8.3.cpp" />
+    <ClCompile Include="chapter9_6.cpp" />
+    <ClCompile Include="chapter9_7.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

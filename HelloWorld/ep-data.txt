@@ -1,0 +1,7 @@
+the mujing is 1800
+f.1. wujing and beishu is: 
+30		60
+19		95
+14		129
+8.8		205
+7.5		240
